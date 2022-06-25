@@ -5,9 +5,9 @@ spring:
         name: customer
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/demokhanhtt?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-        username: sammy
-        password: password
+        url: jdbc:mysql://localhost:3306/msv_customer?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+        username: root
+        password: LaiVanDuc1011@
         hikari:
             poolName: Hikari
             auto-commit: false

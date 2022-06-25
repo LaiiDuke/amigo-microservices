@@ -12,6 +12,9 @@ public class CustomerRegistrationRequest{
         this.email = email;
     }
 
+    public CustomerRegistrationRequest() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
